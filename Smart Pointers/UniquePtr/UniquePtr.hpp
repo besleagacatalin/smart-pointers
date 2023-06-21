@@ -30,3 +30,5 @@ UniquePtr<T> make_unique(Args&&... args)
 {
 	return UniquePtr<T>(new T(std::forward<Args>(args)...));
 }
+
+#include "UniquePtr.cpp"

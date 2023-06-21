@@ -12,7 +12,7 @@ endif()
 project ("Smart Pointers")
 
 # Add source to this project's executable.
-add_executable (CMakeTarget "Main.cpp"  "UniquePtr/UniquePtr.cpp")
+add_executable (CMakeTarget "Main.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET CMakeTarget PROPERTY CXX_STANDARD 20)

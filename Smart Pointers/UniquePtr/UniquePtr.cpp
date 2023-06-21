@@ -1,5 +1,4 @@
 #include<utility>
-#include "UniquePtr.hpp"
 
 template<typename T>
 UniquePtr<T>::UniquePtr() : ptr(nullptr) {}
